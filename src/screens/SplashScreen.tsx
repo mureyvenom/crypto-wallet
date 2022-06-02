@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 const SplashScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>Splash</Text>
+      <Text style={styles.splashText}>Crypto Wallet</Text>
     </View>
   );
 };
@@ -16,5 +16,11 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#000',
+  },
+  splashText: {
+    fontSize: 40,
+    fontWeight: '700',
+    color: '#fff',
   },
 });
